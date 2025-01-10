@@ -1,21 +1,21 @@
 #UseHook
 
-; Для PrintScreen без модификаторов
+; For PrintScreen without modifiers
 <#>+F21::  ; LWin + RShift + F21
 Send, {PrintScreen}
 Return
 
-; Для Ctrl + PrintScreen
+; For Ctrl + PrintScreen
 <^<#>+F21::  ; LCtrl + LWin + RShift + F21
 Send, ^{PrintScreen}  ; Ctrl + PrintScreen
 Return
 
-; Для Alt + PrintScreen
+; For Alt + PrintScreen
 <!<#>+F21::  ; LAlt + LWin + RShift + F21
 Send, !{PrintScreen}  ; Alt + PrintScreen
 Return
 
-; Для Shift + PrintScreen
+; For Shift + PrintScreen
 <+<#>+F21::  ; LShift + LWin + RShift + F21
 Send, {ShiftDown}{PrintScreen}{ShiftUp}  ; Shift + PrintScreen
 Return
